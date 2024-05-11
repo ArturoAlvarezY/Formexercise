@@ -1,9 +1,13 @@
-body{
+body {
     display: flex;
     margin: 0;
     background-color: #01c256;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+}
+
+.tittleUp{
+    display:flex;
 }
 
 
@@ -16,3 +20,6 @@ width: 550px;
     margin-bottom: 15px;
 }
 
+.programationLenguages{
+    display: flex;
+}
