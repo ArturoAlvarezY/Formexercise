@@ -58,5 +58,17 @@ width: 550px;
 
 .c, .cPlus, .cShar, .java, .python, .javascript, .react, .angular, .django, .spring{
 display: flex;
+margin-bottom: 10px;
 }
    
+.flexingSubmitButton{
+    display: flex;
+    justify-content: center;
+}
+
+#submitButton{
+    background-color:#01c256;
+}
+input, button{
+    width: 95%;
+}
