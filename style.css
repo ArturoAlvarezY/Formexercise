@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    margin: 0;
+    background-color: #01c256;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.allMyForm{
+background-color: white;
+width: 550px;
+}
+
+.nameTittle, .passwordTittle, .identifyTittle, .ageTittle{
+    margin-bottom: 15px;
+}
