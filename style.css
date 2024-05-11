@@ -23,3 +23,40 @@ width: 550px;
 .programationLenguages{
     display: flex;
 }
+
+.flexingLanguages{
+    display: flex;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-color: #01c256;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittleUp{
+    display:flex;
+}
+
+
+.allMyForm{
+background-color: white;
+width: 550px;
+}
+
+.nameTittle, .passwordTittle, .identifyTittle, .ageTittle{
+    margin-bottom: 15px;
+}
+
+.flexingLanguages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.c, .cPlus, .cShar, .java, .python, .javascript, .react, .angular, .django, .spring{
+display: flex;
+}
+   
