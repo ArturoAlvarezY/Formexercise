@@ -72,3 +72,16 @@ margin-bottom: 10px;
 input, button{
     width: 95%;
 }
+
+.sayYesPlease{
+    display:flex;
+}
+
+.yes, .no, .maybe{
+    display: flex
+}
+
+#radio{
+    width: auto;
+    height: auto;
+}
