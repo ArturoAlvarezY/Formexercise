@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="allMyForm">
+        <p class="nameTittle">Name</p> 
+        <input type="text" placeholder="Enter your name"><br> 
+        <p class="passwordTittle"> Password </p>
+        <input type="password" placeholder="Enter your password">
+        <p class="ageTittle"> Age </p> 
+        <input type="text" placeholder="Enter your age">
+        <p class="identifyTittle"> Con cuál de las siguientes te identificas más?</p>
+        <select name="opciones">
+            <option value="Student">Student</option>
+            <option value="Fitness">Fitness</option>
+            <option value="Dancer">Dancer</option>
+            <option value="Funny">Funny</option>
+        </select>
+        <p> Would you recommend GeeksforGeeks to a friend</p>
+            <form>
+                <input type="radio" name="decision" value="yes">yes<br>
+                <input type="radio" name="decision" value="no">NO<br>
+                <input type="radio" name="decision" value="maybe">Maybe<br>
+            </form>
+        <p>language and frameworks known(Check all that aplly)</p>
+            <form>
+                <input type="checkbox" name="decision" value="c">C<br>
+                <input type="checkbox" name="decision" value="c++">C++<br>
+                <input type="checkbox" name="decision" value="c#">C#<br>
+                <input type="checkbox" name="decision" value="java">Java<br>
+                <input type="checkbox" name="decision" value="python">Python<br>
+                <input type="checkbox" name="decision" value="javascript">Javascript<br>
+                <input type="checkbox" name="decision" value="react">React<br>
+                <input type="checkbox" name="decision" value="angular">Angular<br>
+                <input type="checkbox" name="decision" value="django">Django<br>
+                <input type="checkbox" name="decision" value="spring">Spring<br>
+            </form>        
+        <p>Any comments or sugestion?</p>
+        <input type="text"> <br>
+        <button id="submitButton"> SUBMIT </button>
+</div>
+</body>
+</html>
